@@ -93,7 +93,7 @@ solution "MMDTestSolution"
                     , "./extlibs/bullet/bullet3/src/LinearMath" } 
             links { "BulletDynamics", "BulletCollision", "LinearMath" }
          end
-         links { "GL", "glut" }
+         links { "GL", "GLU", "glut"}
 
       configuration "Debug"
          defines { "DEBUG" } -- -DDEBUG
